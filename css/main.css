@@ -306,9 +306,6 @@ footer ul li:not(:last-child){
 
 /*  */
 @media (max-width:1030px) {
-    nav ul p img{
-        width: 50px;
-    } 
 
     #nav_contents{
         height: 45vh;
@@ -351,6 +348,10 @@ footer ul li:not(:last-child){
 }
 
 @media (max-width:650px) {
+    nav ul p img{
+        width: 50px;
+    } 
+    
     nav ul{
         padding: 0.2rem 0.5rem 0.1rem 0.5rem;
         font-size: smaller;
