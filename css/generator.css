@@ -25,6 +25,7 @@
 }
 
 #gen_form section h2{
+    text-align: center;
     text-transform: uppercase;
     background-color: gray;
     color: white;
@@ -70,4 +71,39 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+/*  */
+
+@media (max-width:1030px) {
+    #gen_form section{
+        width: 50%;
+        min-height: 10vh;
+    }
+}
+
+@media (max-width:900px) {
+    #gen_form section{
+        width: 60%;
+    }
+}
+
+@media (max-width:650px) {
+    #gen_form section{
+        width: 80%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+    #gen_form section{
+        width: 90%;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width:400px) {
+    #gen_form section{
+        font-size: smaller;
+    }
 }
