@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/account.css">
+    <link rel="stylesheet" href="./css/membership.css">
+    <link rel="stylesheet" href="./css/landing.css">
+    <title>Fan Page</title>
+    <script src="./js/jquery.3.7.0.js"></script>
+</head>
+<body>
+
+    <div id="appLoader"><p></p></div>
+
+    <nav id="appNav">
+
+        <ul>
+            <menu class="menu_flip" onclick="closeMenu()">&#10872;</menu>
+
+            <p>
+                <a href="./"><img src="./icons/logo.jpg" alt="Logo"></a>
+                <span id="fanName"></span>
+            </p>
+
+            <li>
+                <a href="./?page=contact-us">Contact</a>
+                <a href="./?page=about-me">About</a>
+            </li>
+        </ul>
+
+        <div id="nav_contents">
+            <video id="nav_vid" muted autoplay loop src="./icons/vid1.mp4"></video>
+            
+            <section id="nav_sub_main">
+                <h1 class="actor_header"></h1>
+
+                <div class="nav_sub_memo">
+                    <p>
+                        An anime convention, a comic book convention, comic con, tv show or movie convention? In United States, UK, France, ...?
+                    </p>
+                     <p>
+                        Find on Roster Con all events or conventions on your favorite tv shows, movies, anime around the world.
+                     </p>
+                </div>
+
+                <form class="nav_sub_memo" id="nav_form">
+                    <input type="search" id="" placeholder="Search: TV Show, Movies, Events, etc.">
+                    <button><img src="./icons/search.svg" alt=""></button>
+                </form>
+
+                <aside class="nav_sub_memo">
+                    Find all the events related to more than 47,000 celebrities, TV shows, anime or movies.
+                </aside>
+            </section>
+
+        </div>
+    </nav>
+
+    <main id="appMain">
+        <section id="side_bar"></section>
+
+        <section id="main_bar"></section>
+    </main>
+    
+    <footer>
+        <ul>
+            <li>
+                <a href="#">Bio</a>
+            </li>
+            <li>
+                <a href="#">Policy</a>
+            </li>
+            <li id="copyRights"></li>
+        </ul>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/pages.js"></script>
+    <script src="./js/account.js"></script>
+    <script src="./js/membership.js"></script>
+    <script src="./js/landing.js"></script>
+</body>
+</html>

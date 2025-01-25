@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/generator.css">
+    <title>Link Generator</title>
+    <script src="./js/jquery.3.7.0.js"></script>
+</head>
+<body>
+
+    <form id="gen_form">
+        <section>
+            <h2>Generate Payment Link</h2>
+            <p>
+                <b>Package: </b>
+                <!-- <input type="number" id="gen_input" value="" placeholder="Enter Amout"> -->
+                <select id="gen_select"></select>
+                <span id="gen_output">$0</span>
+            </p>
+    
+            <button>Generate</button>
+
+            <div id="gen_link"></div>
+        </section>
+    </form>
+    
+    <script src="./js/generator.js"></script>
+</body>
+</html>
