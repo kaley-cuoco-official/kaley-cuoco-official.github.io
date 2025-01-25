@@ -29,7 +29,7 @@
     text-transform: uppercase;
     background-color: gray;
     color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0.2rem;
 }
 
 #gen_form section p{
@@ -103,6 +103,10 @@
 }
 
 @media (max-width:400px) {
+    #gen_form section h2{
+        font-size: 1.1rem;
+    }
+
     #gen_form section{
         font-size: smaller;
     }
