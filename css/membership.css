@@ -1,3 +1,14 @@
+.page_bg{
+    padding: 2rem 5rem;
+    min-height: 100dvh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(../icons/bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*  */
 #membership_vip{
     display: flex;
     justify-content: center;
@@ -5,11 +16,10 @@
 }
 
 #membership_vip section{
-    min-width: 50%;
+    width: 40%;
     min-height: 20vh;
-    /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 1rem 2rem;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 2px -2px 3px black, -2px 2px 3px #ed1848;
     border-radius: 10px 0px;
 }
 
@@ -67,13 +77,13 @@
     margin: 1rem auto;
 }
 
-#membership_link .membership_link_div{
+.membership_link_div{
     width: 45%;
     box-shadow: 0px 0px 3px black;
     padding: 1rem 2rem;
 }
 
-#membership_link .membership_link_div h3{
+.membership_link_div h3{
     color: #ed1848;
     border: 1px solid darkred;
     border-width: 0px 0px 1px 0px;
@@ -81,31 +91,31 @@
     margin-bottom: 1rem;
 }
 
-#membership_link .membership_link_div i{
+.membership_link_div i{
     display: block;
     text-align: center;
     font-size: smaller;
 }
 
-#membership_link .membership_link_div p{
+.membership_link_div p{
     display: flex;
     align-items: center;
     gap: 1rem;
     margin: 0.5rem 0rem;
 }
 
-#membership_link .membership_link_div p b{
+.membership_link_div p b{
     width: 20%;
     background-color: gray;
     color: white;
     padding: 0.3rem 0.5rem;
 }
 
-#membership_link .membership_link_div p a img{
+.membership_link_div p a img{
     width: 40px;
 }
 
-#membership_link .membership_link_div p a img:hover{
+.membership_link_div p a img:hover{
    transform: scale(1.1);
 }
 
@@ -114,7 +124,6 @@
     min-width: none;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 #membership_base section{
@@ -256,4 +265,117 @@
 
 #membership_upgrade_contents button:hover{
     color: yellow;
+}
+
+/*  */
+@media (max-width:1030px) {
+    #membership_vip section{
+        width: 70%;
+        padding: 2rem;
+    }
+
+    .membership_link_div{
+        width: 70%;
+    }
+
+    #membership_base section{
+        width: 80%;
+    }
+
+    #membership_upgrade section{
+        width: 75%;
+    }
+}
+
+@media (max-width:900px) {
+    #membership_vip section, #membership_upgrade section, .membership_link_div, #membership_base section{
+        width: 100%;
+    }
+
+    .membership_link_div{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:650px) {
+    .page_bg{
+        padding: 2rem 3rem;
+    }
+
+    #membership_vip{
+        margin-top: -2rem;
+    }
+
+    #membership_vip section{
+        padding: 2rem 1rem;
+    }
+
+    #membership_vip section h2{
+        font-size: 1.5rem;
+    }
+
+    .membership_link_div p{
+        flex-wrap: wrap;
+    }
+
+    .membership_link_div p b{
+        width: 30%;
+    }
+
+    #membership_base section{
+        font-size: smaller;
+    }
+
+    #membership_base section h2, #membership_base_conatainer h3{
+        font-size: 1.5rem;
+    }
+
+    #membership_base_nav p{
+        flex-wrap: wrap;
+    }
+
+    #membership_base_text::first-letter{
+        font-size: x-large;
+        margin-left: 1rem;
+    }
+
+    #membership_base aside{
+        padding: 1rem 0.5rem;
+    }
+
+    #membership_upgrade, #membership_upgrade section ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:500px) {
+    .page_bg{
+        padding: 2rem 1rem;
+    }
+
+    #membership_link section h2{
+        font-size: 1.5rem;
+    }
+
+    .membership_link_div{
+        font-size: smaller;
+    }
+}
+
+@media (max-width:400px) {
+    .page_bg{
+        padding: 2rem 0.5rem;
+    }
+
+    #membership_vip{
+        font-size: smaller;
+    }
+
+    #membership_vip section{
+        padding: 2rem 0.5rem;
+    }
+
+    #membership_vip section h2{
+        font-size: 1.2rem;
+    }
 }
