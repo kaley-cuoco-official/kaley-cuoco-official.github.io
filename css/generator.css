@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease;
+    scroll-behavior: smooth;
+}
+
+#gen_form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#gen_form section{
+    width: 30%;
+    min-height: 30vh;
+    box-shadow: -2px 2px 5px #ed1848, 2px -2px 5px black;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#gen_form section h2{
+    text-transform: uppercase;
+    background-color: gray;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+#gen_form section p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    margin: 2rem 0rem;
+}
+
+#gen_form section p input, #gen_form section p select{
+    outline: none;
+    padding: 0.2rem;
+    border: 1px solid grey;
+    border-width: 0px 0px 1px 0px;
+    font-size: inherit;
+}
+
+#gen_form section button{
+    display: flex;
+    margin: 1rem auto;
+    background-color: #ed1848;
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+
+#gen_form section button:hover{
+    cursor: pointer;
+    background-color: #ac062d;
+
+}
+
+#gen_form section div{
+    margin: 3rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

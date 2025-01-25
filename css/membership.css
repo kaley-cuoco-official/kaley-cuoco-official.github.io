@@ -1,0 +1,259 @@
+#membership_vip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#membership_vip section{
+    min-width: 50%;
+    min-height: 20vh;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px 0px;
+}
+
+#membership_vip section h2{
+    font-size: 2rem;
+    text-align: center;
+    color: darkred;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#membership_vip section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#membership_vip section p select{
+    background-color: transparent;
+    padding: 0rem 1rem;
+    border: 1px solid grey;
+    border-width: 0px 0px 1px 0px;
+}
+
+#membership_vip section button{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    padding: 0.4rem 0.1rem;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+#membership_vip section button:hover{
+    color: yellow;
+}
+
+/*  */
+#membership_link section h2{
+    text-align: center;
+    font-size: 2rem;
+    /* color: #ed1848; */
+    color: gray;
+    text-transform: uppercase;
+}
+
+#membership_link section aside{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+#membership_link .membership_link_div{
+    width: 45%;
+    box-shadow: 0px 0px 3px black;
+    padding: 1rem 2rem;
+}
+
+#membership_link .membership_link_div h3{
+    color: #ed1848;
+    border: 1px solid darkred;
+    border-width: 0px 0px 1px 0px;
+    padding: 0rem 0.2rem;
+    margin-bottom: 1rem;
+}
+
+#membership_link .membership_link_div i{
+    display: block;
+    text-align: center;
+    font-size: smaller;
+}
+
+#membership_link .membership_link_div p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+#membership_link .membership_link_div p b{
+    width: 20%;
+    background-color: gray;
+    color: white;
+    padding: 0.3rem 0.5rem;
+}
+
+#membership_link .membership_link_div p a img{
+    width: 40px;
+}
+
+#membership_link .membership_link_div p a img:hover{
+   transform: scale(1.1);
+}
+
+/*  */
+#membership_base{
+    min-width: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#membership_base section{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#membership_base section h2{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#membership_base aside{
+    padding: 1rem 2rem;
+}
+
+#membership_base_nav p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#membership_base_nav p b{
+    color: darkgreen;
+}
+
+#membership_base_nav p a{
+    background-color: darkred;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+#membership_base_nav p a:hover{
+    color: yellow;
+}
+
+#membership_base_text{
+    border: 1px solid grey;
+    border-width: 2px 0px;
+    margin: 2rem 0rem 1rem 0rem;
+    padding: 1rem 0.5rem;
+}
+
+#membership_base_text::first-letter{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ed1848;
+    margin-left: 2rem;
+}
+
+#membership_base_conatainer h3{
+    color: darkred;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#membership_base_conatainer ol{
+    margin-left: 1rem;
+}
+
+#membership_base_conatainer ol li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+/*  */
+#membership_upgrade{
+    display: flex;
+    justify-content: center;
+}
+
+#membership_upgrade section{
+    width: 50%;
+}
+
+#membership_upgrade section ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+#membership_upgrade section ul b{
+    color: #ed1848;
+}
+
+#membership_upgrade section h2{
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkred;
+}
+
+#membership_upgrade_contents{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+}
+
+#membership_upgrade_contents p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#membership_upgrade_contents p select{
+    min-width: 30%;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-width: 0px 0px 1px 0px;
+    text-align: center;
+}
+
+#membership_upgrade_contents button{
+    display: flex;
+    margin: 1rem auto;
+    margin-top: 3rem;
+    background-color: darkred;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+#membership_upgrade_contents button:hover{
+    color: yellow;
+}

@@ -1,0 +1,80 @@
+#reg_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../icons/bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#reg_form aside{
+    width: 45%;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px -2px 3px white, -2px 2px 3px #ed1848;
+    border-radius: 10px;
+}
+
+#reg_form aside:hover{
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#reg_form aside h2{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 0.5rem 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#reg_form aside div{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+#reg_form aside div b{
+    width: 30%;
+    background-color: darkred;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    font-weight: 500;
+}
+
+#reg_form aside div input{
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid silver;
+    border-width: 0px 0px 2px 0px;
+    padding: 0.1rem;
+}
+
+#reg_form aside div input::placeholder{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#reg_form aside div input:focus{
+    border-color: grey !important;
+}
+
+#reg_form aside button{
+    display: flex;
+    margin: 1rem auto;
+    margin-top: 3rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: #ed1848;
+    color: white;
+}
+
+#reg_form aside button:hover{
+    background-color: darkred;
+}
