@@ -36,16 +36,19 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 0.5rem;
     margin: 2rem 0rem;
 }
 
 #gen_form section p input, #gen_form section p select{
+    min-width: 40%;
     outline: none;
     padding: 0.2rem;
     border: 1px solid grey;
     border-width: 0px 0px 1px 0px;
     font-size: inherit;
+    background-color: transparent;
 }
 
 #gen_form section button{
