@@ -1,0 +1,19 @@
+{
+    "nav":[
+        {"menu":"Membership"},
+        {"menu":"Fan Club"},
+        {"menu":"Meet and Greet"},
+        {"menu":"Charity"},
+        {"menu":"Competitions"},
+        {"menu":"Movies"},
+        {"menu":"News"}
+    ],
+
+    "fan": [
+        {"package":"silver", "fee":"$350"},
+        {"package":"gold", "fee":"$765"},
+        {"package":"sapphire", "fee":"$1050"},
+        {"package":"platinum", "fee":"$4570"},
+        {"package":"diamond", "fee":"$10854"}
+    ]
+}

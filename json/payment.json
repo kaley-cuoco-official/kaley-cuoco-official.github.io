@@ -1,0 +1,10 @@
+{
+    "coins":[
+        {"id":"btc", "name":"BitCoins", "address":""},
+        {"id":"cap", "name":"Cash App", "address":""}
+    ],
+
+    "banks":[
+        {"id":"pal", "name":"PayPal", "acc":"", "swift":"", "address":""}
+    ]
+}
