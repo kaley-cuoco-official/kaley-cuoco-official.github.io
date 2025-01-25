@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../icons/bg1.webp);
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 #reg_form aside{
     width: 45%;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 2px -2px 3px white, -2px 2px 3px #ed1848;
     border-radius: 10px;
 }
@@ -77,4 +77,55 @@
 
 #reg_form aside button:hover{
     background-color: darkred;
+}
+
+/*  */
+@media (max-width:1030px) {
+    #reg_form aside{
+        width: 60%;
+    } 
+
+    #reg_form aside div b{
+        width: 25%;
+    }
+    
+    #reg_form aside div input{
+        width: 75%;
+    }
+}
+
+@media (max-width:900px) {
+    #reg_form aside{
+        width: 75%;
+    }
+}
+
+@media (max-width:650px) {
+    #reg_form{
+        margin-top: -2rem;
+    }
+
+    #reg_form aside{
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+    #reg_form aside{
+        width: 95%;
+        padding: 1rem 0.5rem;
+    }
+
+    #reg_form aside div{
+        flex-wrap: wrap;
+    }
+
+    #reg_form aside div b{
+        width: auto;
+    }
+    
+    #reg_form aside div input{
+        width: 100%;
+    }
 }
