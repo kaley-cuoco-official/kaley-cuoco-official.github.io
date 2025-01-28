@@ -1,0 +1,662 @@
+[
+    {
+        "id":1,
+        "title":"Virtuosity",
+        "role":"Karin Carter",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Virtuosity",
+        "category":"film",
+        "cover":"virtuosity.jpg",
+        "year":1995
+    },
+    {
+        "id":2,
+        "title":"Picture Perfect",
+        "role":"Little Girl",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Picture_Perfect_(1997_film)",
+        "category":"film",
+        "cover":"picture-perfect.jpg",
+        "year":1997
+    },
+    {
+        "id":3,
+        "title":"Can't Be Heaven",
+        "role":"Teresa Powers",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Can%27t_Be_Heaven",
+        "category":"film",
+        "cover":"cant-be-heaven.jpg",
+        "year":1999
+    },
+    {
+        "id":4,
+        "title":"Debating Robert Lee",
+        "role":"Maralee Rodgers",
+        "note":"",
+        "link":"",
+        "category":"film",
+        "cover":"",
+        "year":2004
+    },
+    {
+        "id":5,
+        "title":"Lucky 13",
+        "role":"Sarah Baker",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Lucky_13",
+        "category":"film",
+        "cover":"",
+        "year":2005
+    },
+    {
+        "id":6,
+        "title":"Wasted",
+        "role":"Katie Cooning",
+        "note":"",
+        "link":"",
+        "category":"film",
+        "cover":"",
+        "year":2006
+    },
+    {
+        "id":7,
+        "title":"Bratz Passion 4 Fashion - Diamondz",
+        "role":"Kirstee Smith",
+        "note":"Voice",
+        "link":"https://en.wikipedia.org/wiki/Bratz",
+        "category":"film",
+        "cover":"",
+        "year":2006
+    },
+    {
+        "id":8,
+        "title":"Bratz: Genie Magic",
+        "role":"Kirstee Smith",
+        "note":"Voice",
+        "link":"https://en.wikipedia.org/wiki/Bratz",
+        "category":"film",
+        "cover":"",
+        "year":2006
+    },
+    {
+        "id":9,
+        "title":"Cougar Club",
+        "role":"Amanda",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Cougar_Club",
+        "category":"film",
+        "cover":"cougar-club.jpg",
+        "year":2007
+    },
+    {
+        "id":10,
+        "title":"Killer Movie",
+        "role":"Blanca Champion",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Killer_Movie",
+        "category":"film",
+        "cover":"killer_movie.jpg",
+        "year":2008
+    },
+    {
+        "id":11,
+        "title":"The Penthouse",
+        "role":"Erica Roc",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/The_Penthouse_(2010_film)",
+        "category":"film",
+        "cover":"penthouse.jpg",
+        "year":2010
+    },
+    {
+        "id":12,
+        "title":"Hop",
+        "role":"Sam O'Hare",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Hop_(film)",
+        "category":"film",
+        "cover":"hop.jpg",
+        "year":2011
+    },
+    {
+        "id":13,
+        "title":"The Last Ride",
+        "role":"Wanda",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/The_Last_Ride_(2011_film)",
+        "category":"film",
+        "cover":"the-last-ride.jpg",
+        "year":2011
+    },
+    {
+        "id":14,
+        "title":"Authors Anonymous",
+        "role":"Hannah Rinaldi",
+        "note":"Also executive producer",
+        "link":"https://en.wikipedia.org/wiki/Authors_Anonymous",
+        "category":"film",
+        "cover":"authors_anonymous.jpg",
+        "year":2014
+    },
+    {
+        "id":15,
+        "title":"A Million Ways to Die in the West",
+        "role":"Woman in the Store",
+        "note":"Unrated version",
+        "link":"https://en.wikipedia.org/wiki/A_Million_Ways_to_Die_in_the_West",
+        "category":"film",
+        "cover":"a_million_ways_to_die_in_the_west.jpg",
+        "year":2014
+    },
+    {
+        "id":16,
+        "title":"The Wedding Ringer",
+        "role":"Gretchen Palmer",
+        "note":"Unrated version",
+        "link":"https://en.wikipedia.org/wiki/The_Wedding_Ringer",
+        "category":"film",
+        "cover":"the-wedding-ringer.jpg",
+        "year":2015
+    },
+    {
+        "id":17,
+        "title":"Burning Bodhi",
+        "role":"Katy",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Burning_Bodhi",
+        "category":"film",
+        "cover":"burning_bodhi.jpg",
+        "year":2015
+    },
+    {
+        "id":18,
+        "title":"Alvin and the Chipmunks: The Road Chip",
+        "role":"Eleanor",
+        "note":"Voice",
+        "link":"https://en.wikipedia.org/wiki/Alvin_and_the_Chipmunks:_The_Road_Chip",
+        "category":"film",
+        "cover":"alvin-chipmunks-the-road-chip.jpg",
+        "year":2015
+    },
+    {
+        "id":19,
+        "title":"Why Him?",
+        "role":"Justine",
+        "note":"Voice",
+        "link":"https://en.wikipedia.org/wiki/Why_Him%3F",
+        "category":"film",
+        "cover":"why_him.png",
+        "year":2016
+    },
+    {
+        "id":20,
+        "title":"Handsome",
+        "role":"Kaley Cuoco",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/Handsome_(film)",
+        "category":"film",
+        "cover":"handsome.jpg",
+        "year":2017
+    },
+    {
+        "id":21,
+        "title":"The Man from Toronto",
+        "role":"Anne",
+        "note":"",
+        "link":"https://en.wikipedia.org/wiki/The_Man_from_Toronto_(2022_film)",
+        "category":"film",
+        "cover":"the_man_from_toronto.jpg",
+        "year":2022
+    },
+    {
+        "id":22,
+        "title":"Meet Cute",
+        "role":"Sheila",
+        "note":"Also executive producer",
+        "link":"https://en.wikipedia.org/wiki/Meet_Cute_(film)",
+        "category":"film",
+        "cover":"meet-cute.jpg",
+        "year":2022
+    },
+    {
+        "id":23,
+        "title":"Role Play",
+        "role":"Emma",
+        "note":"Also producer",
+        "link":"https://en.wikipedia.org/wiki/Role_Play",
+        "category":"film",
+        "cover":"role-play.jpg",
+        "year":2024
+    },
+    {
+        "id":1,
+        "title":"Quicksand: No Escape",
+        "role":"Connie Reinhardt",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/Quicksand:_No_Escape",
+        "category":"tv",
+        "cover":"quicksand-no-escape.jpg",
+        "year":1992
+    },
+    {
+        "id":2,
+        "title":"My So-Called Life",
+        "role":"Young Angela Chase",
+        "note":"Episode: 'Father Figures'",
+        "link":"https://en.wikipedia.org/wiki/My_So-Called_Life",
+        "category":"tv",
+        "cover":"my-so-called-life.png",
+        "year":1994
+    },
+    {
+        "id":3,
+        "title":"Northern Exposure",
+        "role":"Miranda",
+        "note":"Episode: 'Hello, I Love You'",
+        "link":"https://en.wikipedia.org/wiki/Northern_Exposure",
+        "category":"tv",
+        "cover":"northern-exposure.jpg",
+        "year":1994
+    },
+    {
+        "id":4,
+        "title":"Ellen",
+        "role":"Little Ellen Morgan",
+        "note":"Episode: 'The Bubble Gum Incident'",
+        "link":"https://en.wikipedia.org/wiki/Ellen_(TV_series)",
+        "category":"tv",
+        "cover":"ellen.png",
+        "year":1996
+    },
+    {
+        "id":5,
+        "title":"Toothless",
+        "role":"Lori",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/Toothless_(film)",
+        "category":"tv",
+        "cover":"toothless.jpg",
+        "year":1997
+    },
+    {
+        "id":6,
+        "title":"Mr. Murder",
+        "role":"Charlotte Stillwater",
+        "note":"Miniseries",
+        "link":"https://en.wikipedia.org/wiki/Mr._Murder_(miniseries)",
+        "category":"tv",
+        "cover":"mr.-murder.jpg",
+        "year":1998
+    },
+    {
+        "id":7,
+        "title":"The Tony Danza Show",
+        "role":"Pammie Green",
+        "note":"Episode: 'Mini-pause'",
+        "link":"https://en.wikipedia.org/wiki/The_Tony_Danza_Show_(1997_TV_series)",
+        "category":"tv",
+        "cover":"",
+        "year":1998
+    },
+    {
+        "id":8,
+        "title":"Don't Forget Your Toothbrush",
+        "role":"Ashley",
+        "note":"Episode: 'March 12, 2000'",
+        "link":"",
+        "category":"tv",
+        "cover":"",
+        "year":2000
+    },
+    {
+        "id":9,
+        "title":"Alley Cats Strike",
+        "role":"Elisa Bowers",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/Alley_Cats_Strike",
+        "category":"tv",
+        "cover":"alley-cats-strike.jpg",
+        "year":2000
+    },
+    {
+        "id":10,
+        "title":"Growing Up Brady",
+        "role":"Maureen McCormick",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/Growing_Up_Brady_(film)",
+        "category":"tv",
+        "cover":"growing-up-brady.PNG",
+        "year":2000
+    },
+    {
+        "id":11,
+        "title":"Ladies Man",
+        "role":"Bonnie Stiles",
+        "note":"Main role",
+        "link":"https://en.wikipedia.org/wiki/Ladies_Man_(1999_TV_series)",
+        "category":"tv",
+        "cover":"",
+        "year":2001
+    },
+    {
+        "id":12,
+        "title":"7th Heaven",
+        "role":"Lynn",
+        "note":"Episode: 'Relationships'",
+        "link":"https://en.wikipedia.org/wiki/7th_Heaven_(TV_series)",
+        "category":"tv",
+        "cover":"7th-heaven.png",
+        "year":2001
+    },
+    {
+        "id":13,
+        "title":"First Monday",
+        "role":"Alyssa",
+        "note":"Episode: 'Pilot'",
+        "link":"https://en.wikipedia.org/wiki/First_Monday",
+        "category":"tv",
+        "cover":"first-monday.jpg",
+        "year":2002
+    },
+    {
+        "id":14,
+        "title":"The Ellen Show",
+        "role":"Vanessa",
+        "note":"Episode: 'Shallow Gal'",
+        "link":"https://en.wikipedia.org/wiki/The_Ellen_Show",
+        "category":"tv",
+        "cover":"ellen-show.png",
+        "year":2002
+    },
+    {
+        "id":15,
+        "title":"The Nightmare Room",
+        "role":"Kristin Ferris",
+        "note":"Episode: 'My Name is Evil'",
+        "link":"https://en.wikipedia.org/wiki/The_Nightmare_Room",
+        "category":"tv",
+        "cover":"nightmare-room.jpg",
+        "year":2002
+    },
+    {
+        "id":16,
+        "title":"8 Simple Rules",
+        "role":"Bridget Hennessy",
+        "note":"Main role",
+        "link":"https://en.wikipedia.org/wiki/8_Simple_Rules",
+        "category":"tv",
+        "cover":"simple-rules.png",
+        "year":"2002-2005"
+    },
+    {
+        "id":17,
+        "title":"The Help",
+        "role":"Carly Michaels",
+        "note":"Episode: 'Pilot'",
+        "link":"https://en.wikipedia.org/wiki/The_Help_(TV_series)",
+        "category":"tv",
+        "cover":"",
+        "year":2004
+    },
+    {
+        "id":18,
+        "title":"10.5",
+        "role":"Amanda Williams",
+        "note":"2 episodes",
+        "link":"https://en.wikipedia.org/wiki/10.5_(miniseries)",
+        "category":"tv",
+        "cover":"10.5.jpg",
+        "year":2004
+    },
+    {
+        "id":19,
+        "title":"Punk'd",
+        "role":"Kaley Cuoco",
+        "note":"Episode: 'May 9, 2004'",
+        "link":"https://en.wikipedia.org/wiki/Punk%27d",
+        "category":"tv",
+        "cover":"punk'd.jpg",
+        "year":2004
+    },
+    {
+        "id":20,
+        "title":"Crimes of Fashion",
+        "role":"Brooke Sarto",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/Crimes_of_Fashion",
+        "category":"tv",
+        "cover":"crimes_of_fashion.png",
+        "year":2004
+    },
+    {
+        "id":21,
+        "title":"Brandy & Mr. Whiskers",
+        "role":"Brandy Harrington",
+        "note":"Voice, main role",
+        "link":"https://en.wikipedia.org/wiki/Brandy_%26_Mr._Whiskers",
+        "category":"tv",
+        "cover":"brandy&mr.whiskers.jpg",
+        "year":"2004-2006"
+    },
+    {
+        "id":22,
+        "title":"The Hollow",
+        "role":"Karen",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/The_Hollow_(2004_film)",
+        "category":"tv",
+        "cover":"hallows.jpg",
+        "year":2004
+    },
+    {
+        "id":23,
+        "title":"Complete Savages",
+        "role":"Erin",
+        "note":"Episode: 'For Whom the Cell Tolls'",
+        "link":"https://en.wikipedia.org/wiki/Complete_Savages",
+        "category":"tv",
+        "cover":"complete-savages.png",
+        "year":2004
+    },
+    {
+        "id":24,
+        "title":"Bratz",
+        "role":"Kirstee Smith",
+        "note":"Voice, main role",
+        "link":"https://en.wikipedia.org/wiki/Bratz_(TV_series)",
+        "category":"tv",
+        "cover":"bratz.jpg",
+        "year":"2005-2006"
+    },
+    {
+        "id":25,
+        "title":"Loonatics Unleashed",
+        "role":"Paula Hayes / Weather Vane",
+        "note":"Voice, 3 episodes",
+        "link":"https://en.wikipedia.org/wiki/Loonatics_Unleashed",
+        "category":"tv",
+        "cover":"loonatics_unleashed.png",
+        "year":"2005-2007"
+    },
+    {
+        "id":26,
+        "title":"Charmed",
+        "role":"Billie Jenkins",
+        "note":"Main role",
+        "link":"https://en.wikipedia.org/wiki/Charmed",
+        "category":"tv",
+        "cover":"charmed.jpg",
+        "year":"2005-2006"
+    },
+    {
+        "id":27,
+        "title":"To Be Fat like Me",
+        "role":"Alyson Schmidt",
+        "note":"Television film",
+        "link":"https://en.wikipedia.org/wiki/To_Be_Fat_like_Me",
+        "category":"tv",
+        "cover":"to-be-fat-like-me.jpg",
+        "year":2007
+    },
+    {
+        "id":28,
+        "title":"Prison Break",
+        "role":"Sasha Murray",
+        "note":"2 episodes",
+        "link":"https://en.wikipedia.org/wiki/Prison_Break",
+        "category":"tv",
+        "cover":"Prison-break.jpg",
+        "year":2007
+    },
+    {
+        "id":29,
+        "title":"The Big Bang Theory",
+        "role":"Penny",
+        "note":"Main role",
+        "link":"https://en.wikipedia.org/wiki/The_Big_Bang_Theory",
+        "category":"tv",
+        "cover":"big_bang_theory.png",
+        "year":"2007-2019"
+    },
+    {
+        "id":30,
+        "title":"Drew Peterson: Untouchable",
+        "role":"Stacy Peterson",
+        "note":"Television film",
+        "link":"",
+        "category":"tv",
+        "cover":"",
+        "year":2012
+    },
+    {
+        "id":31,
+        "title":"Comedy Bang! Bang!",
+        "role":"Kaley Cuoco",
+        "note":"Episode: 'Kaley Cuoco Wears a Black Blazer and Slip on Sneakers'",
+        "link":"https://en.wikipedia.org/wiki/Comedy_Bang!_Bang!_(TV_series)",
+        "category":"tv",
+        "cover":"comedy_bang!_bang!.jpg",
+        "year":2016
+    },
+    {
+        "id":32,
+        "title":"Lip Sync Battle",
+        "role":"Kaley Cuoco",
+        "note":"Episode: 'Josh Gad vs. Kaley Cuoco'",
+        "link":"https://en.wikipedia.org/wiki/Lip_Sync_Battle",
+        "category":"tv",
+        "cover":"lip_sync_battle.png",
+        "year":2016
+    },
+    {
+        "id":33,
+        "title":"Best. Worst. Weekend. Ever",
+        "role":"Kaley Cuoco",
+        "note":"Episode: 'Issue 8'",
+        "link":"https://en.wikipedia.org/wiki/Best.Worst.Weekend.Ever.",
+        "category":"tv",
+        "cover":"best_worst_weekend_ever.jpg",
+        "year":2018
+    },
+    {
+        "id":34,
+        "title":"Harley Quinn",
+        "role":"Dr. Harleen Quinzel / Harley Quinn",
+        "note":"Voice, main role; also executive producer",
+        "link":"https://en.wikipedia.org/wiki/Harley_Quinn_(TV_series)",
+        "category":"tv",
+        "cover":"harley-quinn.jpg",
+        "year":"2019-present"
+    },
+    {
+        "id":35,
+        "title":"Young Sheldon",
+        "role":"Pool Water",
+        "note":"Voice, episode: 'Teenager Soup and a Little Ball of Fib'",
+        "link":"https://en.wikipedia.org/wiki/Young_Sheldon",
+        "category":"tv",
+        "cover":"young-sheldon.png",
+        "year":2019
+    },
+    {
+        "id":36,
+        "title":"The Flight Attendant",
+        "role":"Cassie Bowden",
+        "note":"Main role; also executive producer",
+        "link":"https://en.wikipedia.org/wiki/The_Flight_Attendant",
+        "category":"tv",
+        "cover":"flight-attendant.png",
+        "year":"2020-2022"
+    },
+    {
+        "id":37,
+        "title":"Curb Your Enthusiasm",
+        "role":"Heidi",
+        "note":"Episode: 'The Watermelon'",
+        "link":"https://en.wikipedia.org/wiki/Curb_Your_Enthusiasm",
+        "category":"tv",
+        "cover":"curb-your-enthusiasm.png",
+        "year":2021
+    },
+    {
+        "id":38,
+        "title":"Based on a True Story",
+        "role":"Ava Bartlett",
+        "note":"Main role; also executive producer",
+        "link":"https://en.wikipedia.org/wiki/Based_on_a_True_Story_(TV_series)",
+        "category":"tv",
+        "cover":"based_on_a_true_story.png",
+        "year":"2023-present"
+    },
+    {
+        "id":39,
+        "title":"Kite Man: Hell Yeah!",
+        "role":"Dr. Harleen Quinzel / Harley Quinn",
+        "note":"Voice, episode: 'Pilot, Hell Yeah!'; also executive producer",
+        "link":"https://en.wikipedia.org/wiki/Kite_Man:_Hell_Yeah!",
+        "category":"tv",
+        "cover":"kite_man_hell_yeah.png",
+        "year":2024
+    },
+    {
+        "id":1,
+        "title":"Teen Choice Awards",
+        "role":"Choice TV Actress: Comedy",
+        "note":"",
+        "link":"",
+        "category":"award",
+        "cover":"young_artist_awards.jpg",
+        "year":2015
+    },
+    {
+        "id":2,
+        "title":"Golden Raspberry Awards",
+        "role":"Worst Supporting Actress",
+        "note":"",
+        "link":"",
+        "category":"award",
+        "cover":"young_artist_awards.jpg",
+        "year":2016
+    },
+    {
+        "id":3,
+        "title":"Teen Choice Awards",
+        "role":"Choice Comedy TV Actress",
+        "note":"",
+        "link":"",
+        "category":"award",
+        "cover":"young_artist_awards.jpg",
+        "year":2019
+    },
+    {
+        "id":4,
+        "title":"Critics' Choice Super Awards",
+        "role":"Best Voice Actress in an Animated Series",
+        "note":"",
+        "link":"",
+        "category":"award",
+        "cover":"young_artist_awards.jpg",
+        "year":2021
+    }
+]
