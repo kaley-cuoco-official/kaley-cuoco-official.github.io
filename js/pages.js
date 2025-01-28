@@ -415,6 +415,16 @@ function appUrlPage() {
         case 'news':
             $("#main_bar").html(getPage)
         break;
+
+        case 'search':
+
+        if (getSearch != null) {
+            $(document).ready(()=>{
+                searchPage();
+            })
+        }
+
+        break;
     
         default:
             // location
