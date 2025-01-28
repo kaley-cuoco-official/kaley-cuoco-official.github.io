@@ -1,146 +1,187 @@
-// https://www.w3schools.com/js/js_date_methods.asp
-// https://www.w3schools.com/js/js_date_methods_set.asp
-
-// 
-let fanMovies;
-  $.ajax({
-    url: "./json/movies.json",
-    async: false, 
-    dataType: 'json',
-    success: function (json) {
-        fanMovies = json;
-    }
-  });
-
-//   
-  let fanNews;
-  $.ajax({
-    url: "./json/news.json",
-    async: false, 
-    dataType: 'json',
-    success: function (json) {
-        fanNews = json;
-    }
-  });
-
-// 
-let fanEvents;
-  $.ajax({
-    url: "./json/events.json",
-    async: false, 
-    dataType: 'json',
-    success: function (json) {
-        fanEvents = json;
-    }
-  });
-
-// let tempDate = new Date("2021-03-25");
-// tempDate.getFullYear();
-
-const permDate = new Date();
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-function landAppPage() {
-    // const landingCount = Math.floor(Math.random() * 6);
-    let landingEvents = "";
-    let landingMovies = "";
-    let landingNews = "";
-
-    let sliceNum = 60;
-    let moreBtn = `<button onclick="toggleFlexMore(this)">... more</button>`;
-    let lessBtn = `<button onclick="toggleFlexLess(this)">... less</button>`;
-
-    for (let i = 0; i < fanEvents.length; i++) {
-        landingEvents += `
-        <section>
-            <h2>${fanEvents[i].title}</h2>
-            <div class="flex_more_show">${fanEvents[i].details.slice(0, sliceNum)}${moreBtn}</div>
-            <div style="display:none" class="flex_more_hide">${fanEvents[i].details}${lessBtn}</div>
-            <i>${fanEvents[i].date}</i>
-        </section>        
-        `    
-    }
-
-    for (let i = 0; i < fanNews.length; i++) {
-        landingNews += `
-            <section>
-                <h2>${fanNews[i].title}</h2>
-                <div class="flex_more_show">${fanNews[i].details.slice(0, sliceNum)}${moreBtn}</div>
-                <div style="display:none" class="flex_more_hide">${fanNews[i].details}${lessBtn}</div>
-                <i>${fanNews[i].date}</i>
-            </section>
-        ` 
-    }
-
-// 
-    for (let i = 0; i < 11; i++) {
-        if (fanMovies[i].cover !="" && fanMovies[i].category == "film") {
-            landingMovies += `
-            <section>
-                <a href="${fanMovies[i].link}">
-                    <h2>${fanMovies[i].title}</h2>
-                    <aside>
-                        <img src="./cover/${fanMovies[i].cover}" alt="photos">
-                        <div>
-                            <p><b>Role: </b> <span>${fanMovies[i].role}<span></p>
-                            <i><span>${fanMovies[i].note}</span> <span><strong>Year: </strong>${fanMovies[i].year}</span></i>
-                        </div> 
-                    </aside>
-                </a>   
-            </section>
-            `
-
-            
-        } 
-    }
-
-    let landingPage = `
-            <div id="app_landing">
-            <h4>${permDate}</h4>
-                <ul>
-                    <li>
-                        <h3>Top Movies</h3>
-                        <div class="landing_grid_view">
-                            ${landingMovies}
-                        </div>
-                    </li>
-
-                    <li>
-                        <h3>News</h3>
-                        <div class="landing_flex_view">
-                            ${landingNews}
-                        </div>
-                    </li>
-
-                    <li>
-                        <h3>Events</h3>
-                        <div class="landing_flex_view">
-                            ${landingEvents}
-                        </div>
-                    </li>
-                </ul>
-            </div> 
-        `;
-
-            $("#main_bar").html(landingPage)
+#app_landing{
+    min-height: 100dvh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url(../icons/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0px 0px 3px black;
+    padding: 0.5rem 3rem;
 }
 
-// 
-function toggleFlexMore(x) {
-    let page = x.parentElement.parentElement.parentElement
-    let more = page.getElementsByClassName("flex_more_show")[0]
-    let less = page.getElementsByClassName("flex_more_hide")[0]
-
-    more.style.display = "none";
-    less.style.display = "block";
+#app_landing h4{
+    font-weight: 500;
+    text-align: right;
+    color: grey;
+    font-size: 0.8rem;
+    margin: 0.5rem 0rem;
 }
 
-// 
-function toggleFlexLess(x) {
-    let page = x.parentElement.parentElement.parentElement
-    let more = page.getElementsByClassName("flex_more_show")[0]
-    let less = page.getElementsByClassName("flex_more_hide")[0]
+#app_landing ul{
+    list-style: none;
+}
 
-    more.style.display = "block";
-    less.style.display = "none";
+#app_landing ul li h3{
+    background-color: darkred;
+    color: white;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.landing_grid_view{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+	gap: 20px;
+    padding: 0rem 1rem;
+}
+
+.landing_grid_view section{
+    margin: 1rem 0rem;
+    box-shadow: -2px 2px 3px black, 2px -2px 3px grey;
+    border-radius: 5px;
+}
+
+.landing_grid_view section:hover{
+    margin: 1rem 0rem;
+    box-shadow: -2px 2px 3px black, 2px -2px 3px #ed1848;
+    border-radius: 5px;
+}
+
+.landing_grid_view section h2{
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid silver;
+    padding: 0.4rem 0.1rem;
+    text-transform: uppercase;
+}
+
+.landing_grid_view aside{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.landing_grid_view aside img{
+    height: 250px;
+}
+
+.landing_flex_view{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    gap: 0.5rem;
+    padding: 0rem 1rem;
+}
+
+.landing_flex_view section{
+    width: 30%;
+    box-shadow: -2px 0px 3px grey;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.landing_flex_view section h2{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.landing_flex_view section h2::after{
+    content: ":";
+}
+
+.landing_flex_view section i{
+    display: block;
+    text-align: right;
+    font-size: smaller;
+    color: grey;
+}
+
+.landing_flex_view section p{
+    margin: 0.5rem 0rem;
+}
+
+.landing_flex_view section button{
+    display: inline-block;
+    color: grey;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.landing_flex_view section button:hover{
+    transform: scale(1.1);
+    color: darkred;
+}
+
+/*  */
+@media (max-width:1030px) {
+    .landing_grid_view{
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    }
+
+    .landing_grid_view aside img{
+        height: 200px;
+    }
+
+    .landing_flex_view section{
+        width: 47%;
+        padding: 0.5rem;
+        font-size: smaller;
+    }
+
+    .landing_flex_view section h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    #app_landing{
+        padding: 0.5rem 2rem;
+    }
+
+    .landing_grid_view aside{
+        font-size: smaller;
+    }
+
+    .landing_grid_view aside img{
+        height: 150px;
+    }
+}
+
+@media (max-width:650px) {
+    .landing_grid_view{
+        grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+    }
+
+    .landing_grid_view aside img{
+        height: auto;
+    }
+
+    .landing_flex_view section{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .landing_grid_view aside img{
+        width: 100%;
+    }
+
+    .landing_grid_view aside{
+        justify-content: center;
+    }
+
+    #app_landing{
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width:400px){
+    #app_landing{
+        padding: 0.5rem;
+    }
 }
