@@ -34,7 +34,7 @@
         "title":"Debating Robert Lee",
         "role":"Maralee Rodgers",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"film",
         "cover":"",
         "year":2004
@@ -54,7 +54,7 @@
         "title":"Wasted",
         "role":"Katie Cooning",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"film",
         "cover":"",
         "year":2006
@@ -126,7 +126,7 @@
         "note":"",
         "link":"https://en.wikipedia.org/wiki/The_Last_Ride_(2011_film)",
         "category":"film",
-        "cover":"the-last-ride.jpg",
+        "cover":"the_last_ride.jpg",
         "year":2011
     },
     {
@@ -304,7 +304,7 @@
         "title":"Don't Forget Your Toothbrush",
         "role":"Ashley",
         "note":"Episode: 'March 12, 2000'",
-        "link":"",
+        "link":"#",
         "category":"tv",
         "cover":"",
         "year":2000
@@ -524,7 +524,7 @@
         "title":"Drew Peterson: Untouchable",
         "role":"Stacy Peterson",
         "note":"Television film",
-        "link":"",
+        "link":"#",
         "category":"tv",
         "cover":"",
         "year":2012
@@ -624,7 +624,7 @@
         "title":"Teen Choice Awards",
         "role":"Choice TV Actress: Comedy",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"award",
         "cover":"young_artist_awards.jpg",
         "year":2015
@@ -634,7 +634,7 @@
         "title":"Golden Raspberry Awards",
         "role":"Worst Supporting Actress",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"award",
         "cover":"young_artist_awards.jpg",
         "year":2016
@@ -644,7 +644,7 @@
         "title":"Teen Choice Awards",
         "role":"Choice Comedy TV Actress",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"award",
         "cover":"young_artist_awards.jpg",
         "year":2019
@@ -654,7 +654,7 @@
         "title":"Critics' Choice Super Awards",
         "role":"Best Voice Actress in an Animated Series",
         "note":"",
-        "link":"",
+        "link":"#",
         "category":"award",
         "cover":"young_artist_awards.jpg",
         "year":2021
