@@ -40,16 +40,18 @@ let fanEvents;
 const permDate = new Date();
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+let sliceNum = 60;
+let moreBtn = `<button onclick="toggleFlexMore(this)">... more</button>`;
+let lessBtn = `<button onclick="toggleFlexMore(this)">... less</button>`;
+
 function landAppPage() {
     // const landingCount = Math.floor(Math.random() * 6);
     let landingEvents = "";
     let landingMovies = "";
     let landingNews = "";
+    let landingAwards = "";
 
-    let sliceNum = 60;
-    let moreBtn = `<button onclick="toggleFlexMore(this)">... more</button>`;
-    let lessBtn = `<button onclick="toggleFlexMore(this)">... less</button>`;
-
+// reduce to max of 10
     for (let i = 0; i < fanEvents.length; i++) {
         landingEvents += `
         <section>
@@ -61,6 +63,7 @@ function landAppPage() {
         `    
     }
 
+// reduce to max of 10
     for (let i = 0; i < fanNews.length; i++) {
         landingNews += `
             <section>
@@ -89,8 +92,26 @@ function landAppPage() {
                 </a>   
             </section>
             `
+        } 
+    }
 
-            
+    for (let i = 0; i < fanMovies.length; i++) {
+        if (fanMovies[i].cover !="" && fanMovies[i].category == "award") {
+            landingAwards += `
+            <section>
+                
+                <a href="${fanMovies[i].link}">
+                    <h2>${fanMovies[i].title}</h2>
+                    <aside>
+                    <img src="./cover/${fanMovies[i].cover}" alt="photos">
+                        <div>
+                            <p><b>Role: </b> <span>${fanMovies[i].role}<span></p>
+                            <i><strong>Year: </strong>${fanMovies[i].year}</span></i>
+                        </div> 
+                    </aside>
+                </a>   
+            </section>
+            `
         } 
     }
 
@@ -118,6 +139,13 @@ function landAppPage() {
                             ${landingEvents}
                         </div>
                     </li>
+
+                    <li>
+                        <h3>Awards</h3>
+                        <div class="landing_grid_view">
+                            ${landingAwards}
+                        </div>
+                    </li>
                 </ul>
             </div> 
         `;
@@ -125,7 +153,124 @@ function landAppPage() {
             $("#main_bar").html(landingPage)
 }
 
-// 
+// event page
+function getEventsPage() {
+    let eventPage = "";
+
+    for (let i = 0; i < fanEvents.length; i++) {
+        eventPage += `
+        <section>
+            <h2>${fanEvents[i].title}</h2>
+            <div class="flex_more_show">${fanEvents[i].details.slice(0, sliceNum)}${moreBtn}</div>
+            <div style="display:none" class="flex_more_hide">${fanEvents[i].details}${lessBtn}</div>
+            <i>${fanEvents[i].date}</i>
+        </section>        
+        `    
+    }
+    
+    $("#main_bar").html(`
+        <section id="app_landing">
+            <div class="subPageNavs">
+            <h1>Events</h1>
+            <span>
+            <button>Charity</button>
+            <button>Competitions</button>
+            </span>
+        </div>
+
+            <div class="landing_flex_view">
+                ${eventPage}
+            </div>
+        </section>        
+     `)
+}
+
+// movies page
+function getMoviesPage() {
+    let moviesPage = "";
+
+    for (let i = 0; i < fanMovies.length; i++) {
+        if (fanMovies[i].cover !="" && fanMovies[i].category != "award") {
+            moviesPage += `
+            <section> 
+                <a href="${fanMovies[i].link}">
+                    <h2>${fanMovies[i].title}</h2>
+                    <aside>
+                        <img src="./cover/${fanMovies[i].cover}" alt="photos">
+                        <div>
+                            <p><b>Role: </b> <span>${fanMovies[i].role}<span></p>
+                            <i>
+                            <span>${fanMovies[i].note}</span>
+                           
+                            <span><strong>Year: </strong>${fanMovies[i].year}</span>
+                            </i>
+                        </div> 
+                    </aside>
+
+                     <p class="flaot_bottom" style=""><strong>Category: </strong> ${fanMovies[i].category.toUpperCase()}</p>
+                </a>   
+            </section>
+            `
+        } 
+    }
+    
+    
+    $("#main_bar").html(`
+         <section id="app_landing">
+            <div class="subPageNavs">
+                <h1>Movies</h1>
+                <span>
+                <button>Films </button>
+                <button>TV Series</button>
+                </span>
+            </div>
+
+            <div class="landing_grid_view">
+                ${moviesPage}
+            </div>
+         </section>
+        
+        `)
+}
+
+// news page
+function getNewsPage() {
+
+    let newsPage = "";
+
+    for (let i = 0; i < fanNews.length; i++) {
+        newsPage += `
+            <section>
+                <h2>${fanNews[i].title}</h2>
+                <div class="flex_more_show">${fanNews[i].details.slice(0, sliceNum)}${moreBtn}</div>
+                <div style="display:none" class="flex_more_hide">${fanNews[i].details}${lessBtn}</div>
+                <i>${fanNews[i].date}</i>
+            </section>
+        ` 
+    }
+    
+    $("#main_bar").html(
+        `
+        <section id="app_landing">
+            <div class="subPageNavs">
+                <h1>News</h1>
+                <span>
+                <button>Breaking </button>
+                <button>Celebrity</button>
+                </span>
+            </div>
+            
+            <div class="landing_flex_view">
+                ${newsPage}
+            </div>
+        </section>
+        
+        `
+        )
+}
+
+
+// toggle read more
 function toggleFlexMore(x) {
     let page = x.parentElement.parentElement.parentElement
     let more = page.getElementsByClassName("flex_more_show")[0]
