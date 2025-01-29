@@ -93,14 +93,19 @@ nav ul p img{
     width: 70px;
 }
 
-nav ul li a, nav ul li span{
-    padding: 0.2rem 0.8rem;
-    border-radius: 1px;
+nav ul li{
+    display: flex;
+    align-items: last baseline;
+    gap: 0.5rem;
 }
 
-nav ul li a:hover{
-    background-color: white;
-    color: black;
+nav ul li img{
+    width: 20px;
+    margin: 0rem 0.5rem;
+}
+
+nav ul li img:hover{
+    transform: scale(1.1);
 }
 
 #nav_contents{
@@ -346,15 +351,10 @@ footer ul li:not(:last-child){
         padding: 0.2rem 0.5rem 0.1rem 0.5rem;
         font-size: smaller;
     }
-
-    nav ul li a, nav ul li span{
-        padding: 0rem 0.5rem;
-        border-radius: 0px;
-    }
     
-    nav ul li a:hover{
-        background-color: inherit;
-        color: inherit;
+    nav ul li img{
+        width: 18px;
+        margin: 0rem 0.2rem;
     }
 
     #nav_contents{
@@ -397,9 +397,9 @@ footer ul li:not(:last-child){
 }
 
 @media (max-width:500px) {
-
-    nav ul li a, nav ul li span{
-        padding: 0rem 0.4rem;
+    nav ul li img{
+        width: 15px;
+        margin: 0rem;
     }
 
     #nav_sub_main form button img{
