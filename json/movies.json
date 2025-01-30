@@ -636,7 +636,7 @@
         "note":"",
         "link":"#",
         "category":"award",
-        "cover":"young_artist_awards.jpg",
+        "cover":"award1.jpg",
         "year":2016
     },
     {
@@ -646,7 +646,7 @@
         "note":"",
         "link":"#",
         "category":"award",
-        "cover":"young_artist_awards.jpg",
+        "cover":"oscar_award.png",
         "year":2019
     },
     {
@@ -656,7 +656,7 @@
         "note":"",
         "link":"#",
         "category":"award",
-        "cover":"young_artist_awards.jpg",
+        "cover":"award2.jpg",
         "year":2021
     }
 ]
