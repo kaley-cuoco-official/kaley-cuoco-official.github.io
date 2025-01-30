@@ -86,6 +86,7 @@ function landAppPage() {
                         <img src="./cover/${fanMovies[i].cover}" alt="photos">
                         <div>
                             <p><b>Role: </b> <span>${fanMovies[i].role}<span></p>
+                            <br>
                             <i><span>${fanMovies[i].note}</span> <span><strong>Year: </strong>${fanMovies[i].year}</span></i>
                         </div> 
                     </aside>
@@ -105,7 +106,8 @@ function landAppPage() {
                     <aside>
                     <img src="./cover/${fanMovies[i].cover}" alt="photos">
                         <div>
-                            <p><b>Role: </b> <span>${fanMovies[i].role}<span></p>
+                            <p><b>Host: </b> <span>${fanMovies[i].role}<span></p>
+                            <br>
                             <i><strong>Year: </strong>${fanMovies[i].year}</span></i>
                         </div> 
                     </aside>
