@@ -175,6 +175,10 @@
         font-size: 1rem;
     }
 
+    #app_landing ul li h3{
+        font-size: 1.3rem;
+    }
+
     /*  */
 
     .subPageNavs h1{
@@ -199,9 +203,6 @@
 }
 
 @media (max-width:650px) {
-    #app_landing{
-        margin-top: -2rem;
-    }
     #app_landing h4{
         font-size: 0.6rem;
     }
@@ -222,6 +223,10 @@
 
     .landing_flex_view section{
         width: 100%;
+    }
+
+    #app_landing ul li h3{
+        font-size: 1.1rem;
     }
 
     /*  */
@@ -246,6 +251,11 @@
 
     .landing_flex_view section h2, .landing_grid_view section h2{
         font-size: 0.9rem;
+    }
+
+    #app_landing ul li h3{
+        font-size: 1rem;
+        padding: 0.2rem 0.4rem;
     }
 
     /*  */
