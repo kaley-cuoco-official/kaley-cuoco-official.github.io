@@ -1,11 +1,4 @@
-// membership requires fees and must be renewed
-// fan page will stimulate random pep being fans
-// meet & greet will require membership status
-// charity will show where we use raised funds for charity
-// competitions will promote one thing or the other
-// 
 
-// grab url page and fire up
 $(document).ready(function() {
     if (getPage != null) {
         appUrlPage()
