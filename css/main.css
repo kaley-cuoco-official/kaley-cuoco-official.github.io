@@ -204,7 +204,7 @@ main{
     top: 0;
     width: 100%;
     height: 100dvh;
-    z-index: 15;
+    z-index: 18;
     animation: slideSideBar 0.5s linear;
 }
 
