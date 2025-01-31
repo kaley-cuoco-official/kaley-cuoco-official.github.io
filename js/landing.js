@@ -34,6 +34,16 @@ let fanEvents;
     }
   });
 
+  let fanGallery;
+  $.ajax({
+    url: "./json/fans.json",
+    async: false, 
+    dataType: 'json',
+    success: function (json) {
+        fanGallery = json;
+    }
+  });
+
 // let tempDate = new Date("2021-03-25");
 // tempDate.getFullYear();
 
@@ -45,11 +55,24 @@ let moreBtn = `<button onclick="toggleFlexMore(this)">... more</button>`;
 let lessBtn = `<button onclick="toggleFlexMore(this)">... less</button>`;
 
 function landAppPage() {
-    // const landingCount = Math.floor(Math.random() * 6);
+    const landingCount = Math.floor(Math.random() * 4);
+
     let landingEvents = "";
     let landingMovies = "";
     let landingNews = "";
     let landingAwards = "";
+    let landingUser = "";
+    let landingGallery = "";
+
+    landingUser = `
+        <h1>Fans Comments</h1>
+        <p>
+            <b><strong>From: </strong> ${fanGallery.users[landingCount].id}</b>
+            <span><strong>Comments: </strong> ${fanGallery.users[landingCount].msg}</span>
+            <i><strong>Date: </strong> ${fanGallery.users[landingCount].time}</i>
+        </p>
+    
+    `;
 
 // reduce to max of 10
     for (let i = 0; i < fanEvents.length; i++) {
@@ -117,10 +140,42 @@ function landAppPage() {
         } 
     }
 
+    // 
+
+    console.log(fanGallery)
+
+    for (let i = 0; i < fanGallery.slides.length; i++) {
+
+        landingGallery += `
+            <li data-thumb="./gallery/${fanGallery.slides[i].photo}">
+                <img src="./gallery/${fanGallery.slides[i].photo}" />
+            </li>
+        `
+    }
+
     let landingPage = `
             <div id="app_landing">
             <h4>${permDate}</h4>
+
                 <ul>
+
+                    <li>
+                        <h3>Gallery</h3>
+                        <section id="gallery_slide">
+                            <div class="demo">
+                                <div class="item">
+                                    <div class="clearfix">
+                                        <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                                           ${landingGallery}
+                                        </ul>
+                                    </div>
+                                </div>   
+                            </div>
+
+                            <div id="gallery_users">${landingUser}</div>
+                        </section>
+                    <li>
+
                     <li>
                         <h3>Top Movies</h3>
                         <div class="landing_grid_view">
@@ -152,7 +207,7 @@ function landAppPage() {
             </div> 
         `;
 
-            $("#main_bar").html(landingPage)
+            $("#main_bar").html(landingPage);
 }
 
 // event page
