@@ -1,32 +1,49 @@
-[
-    {
-        "id":"vick_4783",
-        "msg":"Hello, Christine ! We love you...",
-        "category":"silver",
-        "time":"02-03-2020"
-    },
-    {
-        "id":"mozal_9083",
-        "msg":"Thanks for the gift",
-        "category":"gold",
-        "time":"02-03-2022"
-    },
-    {
-        "id":"maira_8746",
-        "msg":"Thanks for following me on Facebook",
-        "category":"sapphire",
-        "time":"02-03-2023"
-    },
-    {
-        "id":"kelvin_9083",
-        "msg":"I love your works",
-        "category":"platinum",
-        "time":"02-03-2021"
-    },
-    {
-        "id":"roberto_6502",
-        "msg":"Can't wait to finally meet you !",
-        "category":"diamond",
-        "time":"02-03-2025"
-    }
-]
+{
+    "users":[
+        {
+            "id":"vick_4783",
+            "msg":"Hello, Christine ! We love you...",
+            "category":"silver",
+            "time":"02-03-2020"
+        },
+        {
+            "id":"mozal_9083",
+            "msg":"Thanks for the gift",
+            "category":"gold",
+            "time":"02-03-2022"
+        },
+        {
+            "id":"maira_8746",
+            "msg":"Thanks for following me on Facebook",
+            "category":"sapphire",
+            "time":"02-03-2023"
+        },
+        {
+            "id":"kelvin_9083",
+            "msg":"I love your works",
+            "category":"platinum",
+            "time":"02-03-2021"
+        },
+        {
+            "id":"roberto_6502",
+            "msg":"Can't wait to finally meet you !",
+            "category":"diamond",
+            "time":"02-03-2025"
+        }
+    ],
+    
+    "slides":[
+        {"photo":"pics0.webp"},
+        {"photo":"pics1.webp"},
+        {"photo":"pics2.webp"},
+        {"photo":"pics3.webp"},
+        {"photo":"pics4.webp"},
+        {"photo":"pics5.webp"},
+        {"photo":"pics6.webp"},
+        {"photo":"pics7.webp"},
+        {"photo":"pics8.webp"},
+        {"photo":"pics9.webp"},
+        {"photo":"pics10.webp"},
+        {"photo":"pics11.webp"}
+    ]
+}
