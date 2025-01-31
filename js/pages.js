@@ -87,14 +87,17 @@ function appUrlPage() {
 
         case 'events':
             getEventsPage();
+            adjustTopMargin();
         break;
 
         case 'movies':
             getMoviesPage();
+            adjustTopMargin();
         break;
 
         case 'news':
             getNewsPage();
+            adjustTopMargin();
         break;
 
         case 'search':
@@ -125,4 +128,11 @@ function validMember() {
     if (!localStorage.hasOwnProperty("member")) {
         location = "./?page=membership";
     }
+}
+
+// adjust margin
+function adjustTopMargin() {
+    if($(window).innerWidth() <= 650) {
+        $("#app_landing").css({"margin-top":"-2rem"});
+     }
 }
