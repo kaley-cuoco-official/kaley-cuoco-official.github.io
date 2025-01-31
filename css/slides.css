@@ -1,0 +1,146 @@
+#gallery_slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+}
+
+#gallery_users{
+    width: 40%;
+    background-color: silver;
+    padding: 0.5rem;
+    font-size: smaller;
+}
+
+#gallery_users h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    border-width: 0px 0px 1px 0px;
+}
+
+#gallery_users p{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#gallery_users p strong{
+    color:#ed3020;
+    margin-right: 0.2rem;
+    text-transform: uppercase;
+}
+
+#gallery_users p b{
+    text-transform: lowercase;
+}
+
+#gallery_users p span{
+    width: 100%;
+    text-align: center;
+}
+
+#gallery_users p i{
+    width: 100%;
+    text-align: right;
+    font-size: x-small;
+}
+
+.demo {
+    width: 55%;
+    height: auto;
+}
+
+.demo .item {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.content-slider li {
+    background-color: #ed3020;
+    text-align: center;
+    color: #fff;
+}
+
+.content-slider h3 {
+    margin: 0;
+    padding: 70px 0;
+}
+
+#image-gallery {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.clearfix{
+    width: 100%;
+    background-color: grey;
+    padding: 5px;
+}
+
+.clearfix img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*  */
+@media (max-width:1030px) {
+    #gallery_slide{
+        justify-content: center;
+        /* padding: 0rem 1rem; */
+    }
+
+    .demo {
+        width: 70%;
+    }
+
+    #gallery_users{
+        width: 60%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:900px) {
+    .demo {
+        width: 75%;
+    }
+
+    #gallery_users{
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:650px) {
+    .demo {
+        width: 90%;
+    }
+
+    #gallery_users{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    #gallery_users h1{
+        font-size: 1.1rem;
+    }
+
+    .demo {
+        width: 100%;
+    }
+
+    #gallery_users{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:400px) {
+    #gallery_users{
+        font-size: 0.6rem;
+    }
+}
