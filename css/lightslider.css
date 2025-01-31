@@ -91,7 +91,7 @@
     text-indent: -999em;
     width: 8px;
     position: relative;
-    z-index: 99;
+    z-index: 15;
     -webkit-transition: all 0.5s linear 0s;
     transition: all 0.5s linear 0s;
 }
@@ -157,7 +157,7 @@
     background-image: url('../icons/controls.png');
     cursor: pointer;
     position: absolute;
-    z-index: 99;
+    z-index: 15;
     margin-top: -16px;
     opacity: 0.5;
     -webkit-transition: opacity 0.35s linear 0s;
