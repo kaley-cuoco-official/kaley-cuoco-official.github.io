@@ -34,6 +34,7 @@ let fanEvents;
     }
   });
 
+//   
   let fanGallery;
   $.ajax({
     url: "./json/fans.json",
