@@ -70,7 +70,7 @@ function meetAndGreetPage() {
             <div id="meet_greet_footer">
                 <p>Sorry, you are on the "<b style="color:red">Reds</b>" and still have a long way to go, before you can finally get to meet me!</p>
 
-                <p>You can increase your chances of getting "<b style="color:green">Green</b>" on the waiting list by upgrading membership. The higher you go, the more you climb on the waiting list.</p>
+                <p>You can increase your chances of getting "<b style="color:green">Green</b>" on the waiting list by upgrading membership. <br> The higher you go, the more you climb on the waiting list.</p>
 
                 <p></p>
 
