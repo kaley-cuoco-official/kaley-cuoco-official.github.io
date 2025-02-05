@@ -1,0 +1,98 @@
+#meet_greet_container h2{
+ text-align: center;
+ background-color: darkred;
+ color: white;
+ text-transform: uppercase;
+ padding: 0.5rem 0.1rem;
+ font-size: 2rem;
+}
+
+#meet_greet_container aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+}
+
+#meet_greet_container aside video{
+    width: 40%;
+    background-color: grey;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#meet_greet_container aside div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#meet_greet_container aside span{
+    font-size: large;
+}
+
+#meet_greet_container aside b{
+    font-size: 3rem;
+    color: #ed1848;
+}
+
+#meet_greet_footer{
+    padding: 1rem;
+}
+
+#meet_greet_footer::first-letter{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+#meet_greet_footer p{
+    margin: 0.5rem 0rem;
+}
+
+#meet_greet_footer a{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    background-color: green;
+    color: white;
+    padding: 0.4rem 1rem;
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#meet_greet_footer a:hover{
+    color: yellow;
+}
+
+/*  */
+@media (max-width:1030px) {
+    #meet_greet_container aside video{
+        width: 45%;
+    }
+}
+
+@media (max-width:650px) {
+    #meet_greet_container h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #meet_greet_container aside video{
+        width: 100%;
+    }
+
+    #meet_greet_container aside b{
+        font-size: 2rem;
+    }
+
+    #meet_greet_footer{
+        font-size: smaller;
+    }
+}
