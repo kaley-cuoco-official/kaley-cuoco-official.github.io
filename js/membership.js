@@ -222,7 +222,7 @@ function membershipPage() {
                                 <br>
 
                                 <p>
-                                Selection will be based on Admin's discretion. <br> Please note, fans on higher <b>Package/Plan</b> will prioritised on our list.
+                                Selection will be based on Admin's discretion. <br> Please note, fans on higher <b>Package/Plan</b> will be highly prioritised on our list.
                                 </p>
 
                                 <br>
