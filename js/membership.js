@@ -216,7 +216,7 @@ function membershipPage() {
 
                             <div id="membership_base_text">
                                 <p>
-                                You now official a member of <strong>${actor.toUpperCase()}</strong> fan club; and is now eligible for a <a style="color:blue" href="./?page=meet%20and%20greet">Meet and Greet !</a>.
+                                You are now official an official member of <strong>${actor.toUpperCase()}</strong> fan club; hence eligible for a <a style="color:blue" href="./?page=meet%20and%20greet">Meet and Greet !</a>.
                                 </p>
 
                                 <br>
