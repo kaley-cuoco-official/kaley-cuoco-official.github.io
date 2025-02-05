@@ -132,6 +132,6 @@ function adjustTopMargin() {
         $("#app_landing").css({"margin-top":"-2rem"});
         $("#fan_page_nav").css({"margin-top":"-2rem"});
         $("#meet_greet_container").css({"margin-top":"-2rem"});
-        $(".page_bg").css({"margin-top":"-3rem"});
+        $(".page_bg").css({"margin-top":"-2rem"});
      }
 }
