@@ -257,11 +257,11 @@ main{
 #main_bar{
     background-color: white;
     min-height: 100dvh;
-    animation: fadeInMain 1.5s ease-in-out;
+    animation: fadeInMain 1s ease-in;
 }
 
 footer{
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     font-size: smaller;
     padding: 1rem 0.5rem;
