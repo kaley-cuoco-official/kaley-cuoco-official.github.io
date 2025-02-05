@@ -222,20 +222,27 @@ function membershipPage() {
                                 <br>
 
                                 <p>
-                                Selection will be based on Admin's discretion. <br> Please note, fans on higher <b>Package/Plan</b> will be highly prioritised on our list.
+                                Selection will be based on Admin's discretion.
                                 </p>
 
                                 <br>
 
                                 <p>
-                                Consider upgrading your Fan-Base category to increase your chances.
+                                   <strong>NOTE: </strong> Fans on higher <b>Package/Plan</b> are highly prioritised.
                                 </p>
+                                
                             </div>
                             
                             <div id="membership_base_conatainer">
                                 <h3>Fan Base Categories</h3>
                                 <ol>${listFanBase}</ol>
                             </div>
+
+                            <br>
+
+                                <p style="color:rgba(0,0,0,0.7); text-align:center; font-size:smaller">
+                                    <i>Consider upgrading your membership to increase your chances.</i>
+                                </p>
                         </aside>
 
                     </section> 
