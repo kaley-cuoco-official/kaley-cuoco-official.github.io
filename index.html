@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/landing.css">
     <link rel="stylesheet" href="./css/fan_club.css">
     <link rel="stylesheet" href="./css/meet_greet.css">
+    <link rel="stylesheet" href="./css/search.css">
 
     <!--  -->
     <link rel="stylesheet" href="./css/lightslider.css">
@@ -33,7 +34,7 @@
             </p>
 
             <li>
-                <a href="./?page=contact-us"><img src="./icons/contact.svg" alt="Contact us"></a>
+                <a href="#" onclick="contactWhatsApp()"><img src="./icons/contact.svg" alt="Contact us"></a>
                 <a href="./?page=membership"><img src="./icons/login.svg" alt="Sign in"></a>
             </li>
         </ul>
@@ -56,7 +57,7 @@
 
                 <form class="nav_sub_memo" id="nav_search_form">
                     <input type="search" id="nav_search_input" placeholder="Search: TV Show, Movies, Events, etc.">
-                    <button><img src="./icons/search.svg" alt="Search"></button>
+                    <button id="nav_search_btn"><img src="./icons/search.svg" alt="Search"></button>
                 </form>
 
                 <aside class="nav_sub_memo">
@@ -74,12 +75,6 @@
     
     <footer>
         <ul>
-            <li>
-                <a href="#">Bio</a>
-            </li>
-            <li>
-                <a href="#">Policy</a>
-            </li>
             <li id="copyRights"></li>
         </ul>
     </footer>
