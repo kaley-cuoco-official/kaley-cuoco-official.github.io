@@ -122,7 +122,7 @@ function membershipPage() {
 
                                     <p>
                                         <b>BTC: </b>
-                                        <span>NA</span>
+                                        <span>${btc_coin}</span>
                                     </p>
 
                                     <p>
@@ -291,7 +291,7 @@ function membershipPage() {
 
                                     <p>
                                         <b>BTC: </b>
-                                        <span>NA</span>
+                                        <span>${btc_coin}</span>
                                     </p>
 
                                     <p>
