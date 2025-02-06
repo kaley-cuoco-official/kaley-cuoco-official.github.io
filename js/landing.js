@@ -141,10 +141,7 @@ function landAppPage() {
         } 
     }
 
-    // 
-
-    console.log(fanGallery)
-
+    //
     for (let i = 0; i < fanGallery.slides.length; i++) {
 
         landingGallery += `
