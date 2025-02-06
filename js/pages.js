@@ -101,6 +101,7 @@ function appUrlPage() {
         if (getSearch != null) {
             $(document).ready(()=>{
                 searchPage();
+                adjustTopMargin();
             })
         }
 
@@ -133,5 +134,6 @@ function adjustTopMargin() {
         $("#fan_page_nav").css({"margin-top":"-2rem"});
         $("#meet_greet_container").css({"margin-top":"-2rem"});
         $(".page_bg").css({"margin-top":"-2rem"});
+        $("#search_results").css({"margin-top":"-2rem"});  
      }
 }
