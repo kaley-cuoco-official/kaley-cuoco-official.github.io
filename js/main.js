@@ -14,6 +14,7 @@ window.onscroll = function() {
 };
 
 const actor = "Kaley Christine Cuoco";
+const btc_coin = "bc1qdal8ffpmpkmd3r7zp2r4e92rpn2jhqwgf84uad";
 
 $(".actor_header").text(actor);
 
@@ -35,6 +36,7 @@ const getUrl = new URLSearchParams(window.location.search);
 const getPage = getUrl.get('page');
 const getReceipt = getUrl.get('receipt');
 const getUpgrade = getUrl.get('upgrade');
+const getSearch = getUrl.get('desc');
 
 // 
 const validEmail =
