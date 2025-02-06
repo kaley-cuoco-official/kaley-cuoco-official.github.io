@@ -76,7 +76,7 @@ function landAppPage() {
     `;
 
 // reduce to max of 10
-    for (let i = 0; i < fanEvents.length; i++) {
+    for (let i = 0; i < 2; i++) {
         landingEvents += `
         <section>
             <h2>${fanEvents[i].title}</h2>
@@ -88,7 +88,7 @@ function landAppPage() {
     }
 
 // reduce to max of 10
-    for (let i = 0; i < fanNews.length; i++) {
+    for (let i = 0; i < 2; i++) {
         landingNews += `
             <section>
                 <h2>${fanNews[i].title}</h2>
