@@ -395,3 +395,9 @@ $(document).ready(()=>{
         }, 500);
     })
 })
+
+// call whatsApp
+
+function contactWhatsApp() {
+    location = `https://wa.me/${myNum2}?text=${whatsApp}` 
+}
