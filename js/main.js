@@ -1,3 +1,5 @@
+const actor = "Kaley Christine Cuoco";
+const btc_coin = "bc1qdal8ffpmpkmd3r7zp2r4e92rpn2jhqwgf84uad";
 
 $(document).ready(function(){
   setTimeout(() => {
@@ -5,7 +7,7 @@ $(document).ready(function(){
   }, 500);
 
   const d = new Date();
-  $("#copyRights").html("&copy; "+d.getFullYear());
+  $("#copyRights").html(actor+" - &copy;"+d.getFullYear());
 });
 
 // 
@@ -13,9 +15,7 @@ window.onscroll = function() {
   transNavBar();
 };
 
-const actor = "Kaley Christine Cuoco";
-const btc_coin = "bc1qdal8ffpmpkmd3r7zp2r4e92rpn2jhqwgf84uad";
-
+// 
 $(".actor_header").text(actor);
 
 function transNavBar() {
