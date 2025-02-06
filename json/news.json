@@ -4,5 +4,40 @@
         "title":"Off to work",
         "details":"<p>On my way to work today, I picked up a bacon and egg burger and a cup of coffee at Simbucks for breakfast.</p>",
         "date":"2021-03-25"
+    },
+
+    {
+        "id":2,
+        "title":"I met an Interesting Fans",
+        "details":"<p>Today I met fans that are dedicated to my work and appreciates my roles. This is incredible, not the most incredible feeling in the world.</p>",
+        "date":"2022-05-30"
+    },
+
+    {
+        "id":3,
+        "title":"Season of Love",
+        "details":"<p>I thank all my fans that showed me love this season, I love you all. Thank you.</p>",
+        "date":"2023-02-14"
+    },
+
+    {
+        "id":4,
+        "title":"Looking forward to Meet-and-Greet",
+        "details":"<p>Am delighted to announce that together with my team, we are opening up more room for fans to share memoriable times with me!</p>",
+        "date":"2024-11-10"
+    },
+
+    {
+        "id":5,
+        "title":"Stepping out in styles",
+        "details":"<p>Today's sweat will be the light of the future. Let's shine together and show the charm and style of our women!</p>",
+        "date":"2025-01-14"
+    },
+
+    {
+        "id":6,
+        "title":"Finally, Its a new month",
+        "details":"<p>Happy new month and happy Sunday to you all! Stay safe out there. Love you all!</p>",
+        "date":"2025-02-5"
     }
 ]
