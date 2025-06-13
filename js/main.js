@@ -1,5 +1,13 @@
+// 
 const actor = "Kaley Christine Cuoco";
 const btc_coin = "bc1qdal8ffpmpkmd3r7zp2r4e92rpn2jhqwgf84uad";
+
+// 
+const myNum1 = "+447393072635";
+const myNum2 = myNum1.replace(" ", "").replace(" ", "").replace("(", "").replace(")", "").replace("+", "").replace("-", "");
+
+// 
+const myMail = "kaleycuocomanagement73@gmail.com";
 
 $(document).ready(function(){
   setTimeout(() => {
@@ -26,10 +34,6 @@ function transNavBar() {
     $("#appNav ul").css({"background-color":"rgba(237, 24, 72, 0.8)"})
   }
 }
-
-// 
-const myNum1 = "+1 (682) 296-5546";
-const myNum2 = myNum1.replace(" ", "").replace(" ", "").replace("(", "").replace(")", "").replace("+", "").replace("-", "");
 
 // url
 const getUrl = new URLSearchParams(window.location.search);
