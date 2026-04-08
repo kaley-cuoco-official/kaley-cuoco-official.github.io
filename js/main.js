@@ -3,7 +3,7 @@ const actor = "Kaley Christine Cuoco";
 const btc_coin = "bc1qdal8ffpmpkmd3r7zp2r4e92rpn2jhqwgf84uad";
 
 // 
-const myNum1 = "+447393072635";
+const myNum1 = "+14784074810";
 const myNum2 = myNum1.replace(" ", "").replace(" ", "").replace("(", "").replace(")", "").replace("+", "").replace("-", "");
 
 // 
